@@ -1,6 +1,6 @@
 document.getElementById('newToDoItem').addEventListener("keyup", function(event) {
   // Number 13 is the "Enter" key on the keyboard
-  if (event.keyCode == 'Return' || event.keyCode == 'Enter') {
+  if (event.keyCode === 'Return' || event.keyCode === 'Enter') {
     // Cancel the default action, if needed
     event.preventDefault();
     saveItem();
